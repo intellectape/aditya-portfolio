@@ -1,0 +1,15 @@
+<div class="projectBlock">
+    <div class="header">
+        <img class="projectImage" [src]='project.image'>
+        <div class="titleDiv">
+            <h1>{{project.title}}</h1>
+            <i *ngIf='project.githubUrl' class="fab fa-github"><a href="project.githubUrl"></a></i>
+            <i *ngIf='project.youtubeUrl' class="fab fa-youtube"><a href="project.youtubeUrl"></a></i>
+            <i *ngIf='github' class="fas fa-home"><a href="#"></a>></i>
+        </div>
+    </div>
+    <div class="detail">
+        <h2>Overview</h2>
+        <p>{{project.detail}}</p>
+    </div>
+</div>
