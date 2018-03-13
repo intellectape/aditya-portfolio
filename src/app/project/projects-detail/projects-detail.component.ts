@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Input } from '@angular/core/src/metadata/directives';
+import { Project } from '../../shared/model/project';
 
 @Component({
   selector: 'app-projects-detail',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects-detail.component.scss']
 })
 export class ProjectsDetailComponent implements OnInit {
+
+  // @Input() projectInput: Project;
 
   constructor() { }
 

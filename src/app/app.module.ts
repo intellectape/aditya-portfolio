@@ -12,8 +12,7 @@ import { Http } from '@angular/http/src/http';
 import { HttpModule } from '@angular/http';
 
 const routes: Routes = [
-  { path: 'project', loadChildren: './project/project.module#ProjectModule' },
-  { path: '**', redirectTo: 'project' },
+  { path: '**', loadChildren: './project/project.module#ProjectModule' }
 ];
 
 @NgModule({

@@ -5,6 +5,9 @@ import { ProjectsDetailComponent } from './projects-detail/projects-detail.compo
 import { ProjectRoutingModule } from './project-routing.module';
 import { MaterialModule } from '../shared/material.module';
 import { FormsModule } from '@angular/forms';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -13,6 +16,6 @@ import { FormsModule } from '@angular/forms';
     MaterialModule,
     FormsModule
   ],
-  declarations: [ProjectsComponent, ProjectsDetailComponent]
+  declarations: [ProjectsComponent, ProjectsDetailComponent, NavBarComponent, MainPageComponent, FooterComponent]
 })
 export class ProjectModule { }
