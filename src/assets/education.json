@@ -1,0 +1,19 @@
+[{
+        "title": "North Carolina State University",
+        "detail": "Masters of Computer Science",
+        "major": "Data Science",
+        "image": "../../../assets/ncstate.gif",
+        "cols": 2,
+        "rows": 1,
+        "color": "white"
+    },
+    {
+        "title": "Guru Gobind Singh Indraprastha University",
+        "detail": "Bachelor of Technology",
+        "major": "Computer Science and Engineering",
+        "image": "../../../assets/ggsipu.png",
+        "cols": 2,
+        "rows": 1,
+        "color": "lightgreen"
+    }
+]

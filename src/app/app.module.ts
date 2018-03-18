@@ -10,6 +10,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { Route } from '@angular/router/src/config';
 import { Http } from '@angular/http/src/http';
 import { HttpModule } from '@angular/http';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
   { path: '**', loadChildren: './project/project.module#ProjectModule' }
@@ -25,6 +26,7 @@ const routes: Routes = [
     MaterialModule,
     HttpModule,
     FormsModule,
+    NgbModule.forRoot(),
     RouterModule.forRoot(routes)
   ],
   providers: [],

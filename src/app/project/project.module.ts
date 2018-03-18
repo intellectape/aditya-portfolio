@@ -8,14 +8,18 @@ import { FormsModule } from '@angular/forms';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { FooterComponent } from './footer/footer.component';
+import { EducationComponent } from './education/education.component';
+import { EducationDetailComponent } from './education-detail/education-detail.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   imports: [
     CommonModule,
     ProjectRoutingModule,
     MaterialModule,
-    FormsModule
+    FormsModule, NgbModule
   ],
-  declarations: [ProjectsComponent, ProjectsDetailComponent, NavBarComponent, MainPageComponent, FooterComponent]
+  declarations: [ProjectsComponent, ProjectsDetailComponent, NavBarComponent,
+    MainPageComponent, FooterComponent, EducationComponent, EducationDetailComponent]
 })
 export class ProjectModule { }

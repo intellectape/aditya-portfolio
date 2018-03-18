@@ -1,5 +1,17 @@
 import { NgModule } from '@angular/core';
 import {
+  RippleModule,
+  MDBBootstrapModule,
+  MDBChartsModule,
+  MDBModalRef,
+  MDBTooltipModule,
+  BsDropdownModule,
+  ButtonsModule,
+  CarouselModule,
+  NavbarModule,
+  PopoverModule
+} from 'angular-bootstrap-md';
+import {
   MatAutocompleteModule,
   MatButtonModule,
   MatButtonToggleModule,
@@ -67,7 +79,16 @@ import {
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule
+    MatTooltipModule,
+    RippleModule,
+    MDBBootstrapModule,
+    MDBChartsModule,
+    MDBTooltipModule,
+    BsDropdownModule,
+    ButtonsModule,
+    CarouselModule,
+    NavbarModule,
+    PopoverModule
   ],
   exports: [
     MatAutocompleteModule,
@@ -101,7 +122,16 @@ import {
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule
+    MatTooltipModule,
+    RippleModule,
+    MDBBootstrapModule,
+    MDBChartsModule,
+    MDBTooltipModule,
+    BsDropdownModule,
+    ButtonsModule,
+    CarouselModule,
+    NavbarModule,
+    PopoverModule
   ],
   declarations: []
 })
