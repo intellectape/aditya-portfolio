@@ -4,7 +4,7 @@
     "image": "https://img00.deviantart.net/6323/i/2017/281/e/2/son_goku_ultra_instinct_form_by_rmehedi-dbpwu2b.png",
     "githubUrl": "https://www.github.com/intellectape",
     "techStack": ["python"],
-    "cols": 3,
+    "cols": 2,
     "rows": 1,
     "color": "lightblue"
 }, {
@@ -14,7 +14,7 @@
     "githubUrl": "",
     "techStack": ["javascript", "nodejs"],
     "cols": 1,
-    "rows": 2,
+    "rows": 1,
     "color": "lightgreen"
 }, {
     "title": "Third Project",
@@ -27,6 +27,24 @@
     "color": "lightpink"
 }, {
     "title": "Fourth Project",
+    "detail": "Project Detail",
+    "image": "image.png",
+    "githubUrl": "",
+    "techStack": ["java", "jenkins"],
+    "cols": 1,
+    "rows": 1,
+    "color": "#DDBDF1"
+}, {
+    "title": "Fifth Project",
+    "detail": "Project Detail",
+    "image": "image.png",
+    "githubUrl": "",
+    "techStack": ["java", "jenkins"],
+    "cols": 1,
+    "rows": 1,
+    "color": "#DDBDF1"
+}, {
+    "title": "Sixth Project",
     "detail": "Project Detail",
     "image": "image.png",
     "githubUrl": "",
